@@ -1,5 +1,6 @@
 <template>
-    <div class="relative bg-[url('/src/assets/hero.jpg')] border bg-cover h-[80vh] items-center flex max-lg:px-5 -mt-32">
+    <div
+        class="relative bg-[url('/src/assets/hero.jpg')] border bg-cover h-[80vh] items-center flex max-lg:px-5 -mt-32 max-lg:-mt-0">
         <div class="absolute bg-black w-full h-full opacity-25 left-0"></div>
         <div class="container mx-auto relative z-[1]">
             <div class="text-white font-bold flex flex-col">

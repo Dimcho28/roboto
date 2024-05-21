@@ -15,7 +15,7 @@
                 ex ea commodo consequat
             </h2>
 
-            <div class="font-bold text-xl flex space-x-10 mt-7">
+            <div class="font-bold text-xl flex space-x-10 mt-7 max-lg:flex-col max-lg:space-x-0 max-lg:space-y-5">
                 <div class="flex space-x-5">
                     <img class="w-12 h-12" src="@/assets/growth.png" alt="">
                     <span class="">All Device <br>Testing System</span>
