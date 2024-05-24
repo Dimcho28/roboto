@@ -7,6 +7,9 @@ import WorldHands from './components/WorldHands.vue'
 import CardBoxTwo from './components/CardBoxTwo.vue'
 import OurTeam from './components/OurTeam.vue'
 import OurHappy from './components/OurHappy.vue'
+import LatestNews from './components/LatestNews.vue'
+import GetInTouch from './components/GetInTouch.vue'
+import PageFooter from './components/PageFooter.vue'
 </script>
 
 <template>
@@ -18,4 +21,7 @@ import OurHappy from './components/OurHappy.vue'
   <CardBoxTwo/>
   <OurTeam/>
   <OurHappy/>
+  <LatestNews/>
+  <GetInTouch/>
+  <PageFooter/>
 </template>
