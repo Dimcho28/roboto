@@ -1,6 +1,6 @@
 <template>
-    <div class="container flex mx-auto justify-center space-x-10 pb-20 bg-black pt-20 max-w-full max-lg:flex-col">
-        <div class="max-w-lg max-lg:p-5">
+    <div class="container flex mx-auto justify-center space-x-10 pb-20 bg-black pt-20 max-w-full max-lg:flex-col max-lg:space-x-0 max-lg:px-5 max-lg:space-y-5">
+        <div class="max-w-lg">
             <img src="@/assets/logo.png" alt="">
             <p class="text-white mt-5 font-bold">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -14,7 +14,8 @@
             </div>
         </div>
 
-        <div>
+        <div class="flex max-lg:gap-16 gap-10">
+            <div>
             <span class="font-bold text-[#19df7f] text-xl">MENU</span>
             <ul class="text-white mt-5">
                 <li>Home</li>
@@ -34,6 +35,7 @@
                 <li>Data Analsis</li>
                 <li>Robot Learning</li>
             </ul>
+        </div>
         </div>
 
         <div>
