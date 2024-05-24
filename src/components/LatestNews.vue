@@ -5,7 +5,7 @@
             <span class="text-3xl font-bold">LATEST NEWS</span>
         </div>
 
-        <div class="flex justify-center gap-24 max-lg:flex-col max-lg:max-w-96 max-lg:mx-auto">
+        <div class="flex justify-center gap-24 max-lg:flex-col max-lg:max-w-96 max-lg:mx-auto max-sm:px-5">
             <div class="flex flex-col">
                 <img class="w-96" src="@/assets/world.jpg" alt="">
                 <div class="bg-white max-w-xs shadow-xl rounded-xl -mt-14 relative z-[1] self-end p-6">
