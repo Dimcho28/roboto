@@ -14,14 +14,5 @@ import PageFooter from './components/PageFooter.vue'
 
 <template>
   <HelloWorld/>
-  <Hero/>
-  <HeroTwo/>
-  <CardBox/>
-  <WorldHands/>
-  <CardBoxTwo/>
-  <OurTeam/>
-  <OurHappy/>
-  <LatestNews/>
-  <GetInTouch/>
-  <PageFooter/>
+  <router-view/>
 </template>

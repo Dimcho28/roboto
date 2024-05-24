@@ -8,24 +8,48 @@
       <div class="flex space-x-10 items-center max-lg:hidden">
         <ul
           :class="{ 'text-black flex space-x-10 font-bold transition-all duration-500': isScrolled, 'text-white flex space-x-10 font-bold transition-all duration-500': !isScrolled }">
-          <li>Home</li>
-          <li>ABOUT</li>
-          <li>SERVICES</li>
-          <li>TEAM</li>
-          <li>BLOG</li>
-          <li>CONTACT</li>
+          <li>
+            <RouterLink to="/">HOME</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/about">ABOUT</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/services">SERVICES</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/team">TEAM</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/blog">BLOG</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/contact">CONTACT</RouterLink>
+          </li>
         </ul>
         <button class="bg-[#19df7f] text-white font-bold px-8 py-3 rounded-full">LOG IN</button>
       </div>
 
       <div v-if="isOpen" class="absolute top-20 left-0 z-10 bg-white w-full py-5 px-5">
         <ul class="space-y-3">
-          <li>Home</li>
-          <li>ABOUT</li>
-          <li>SERVICES</li>
-          <li>TEAM</li>
-          <li>BLOG</li>
-          <li>CONTACT</li>
+          <li>
+            <RouterLink to="/">HOME</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/about">ABOUT</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/services">SERVICES</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/team">TEAM</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/blog">BLOG</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/contact">CONTACT</RouterLink>
+          </li>
         </ul>
         <button class="bg-[#19df7f] text-white font-bold px-6 py-2 rounded-full mt-5">LOG IN</button>
       </div>
