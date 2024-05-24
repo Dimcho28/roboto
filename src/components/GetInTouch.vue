@@ -1,8 +1,9 @@
 <template>
-    <div class=" bg-fixed bg-cover bg-center pb-20"
+   <div class="mt-52">
+    <div class=" bg-fixed bg-cover bg-center py-40"
         style="background-image: url('https://www.hdwallpapers.in/download/astro_bot_rescue_mission_robot_hd_astro_bot_rescue-HD.jpg');">
         <div class="flex flex-col items-center mb-10 space-y-5">
-            <span class="text-[#19df7f] font-bold text-6xl mt-96">08</span>
+            <span class="text-[#19df7f] font-bold text-6xl">08</span>
             <span class="text-3xl font-bold text-white">GET IN TOUCH</span>
         </div>
         <div class="flex justify-center space-x-24 max-lg:flex-col max-lg:space-x-0 max-lg:p-5 max-lg:space-y-10">
@@ -26,4 +27,5 @@
             <button class="text-white bg-[#19df7f] py-3 flex-1 rounded-3xl ">VIEW MORE</button>
         </div>
     </div>
+   </div>
 </template>
