@@ -1,5 +1,6 @@
 <template>
-    <div class="container flex mx-auto justify-center space-x-10 pb-20 bg-black pt-20 max-w-full max-lg:flex-col max-lg:space-x-0 max-lg:px-5 max-lg:space-y-5">
+    <div
+        class="container flex mx-auto justify-center space-x-10 pb-20 bg-black pt-20 max-w-full max-lg:flex-col max-lg:space-x-0 max-lg:px-5 max-lg:space-y-5">
         <div class="max-w-lg">
             <img src="@/assets/logo.png" alt="">
             <p class="text-white mt-5 font-bold">
@@ -16,26 +17,26 @@
 
         <div class="flex max-lg:gap-16 gap-10">
             <div>
-            <span class="font-bold text-[#19df7f] text-xl">MENU</span>
-            <ul class="text-white mt-5">
-                <li>Home</li>
-                <li>About</li>
-                <li>Team</li>
-                <li>Blog</li>
-                <li>Contact</li>
-            </ul>
-        </div>
+                <span class="font-bold text-[#19df7f] text-xl">MENU</span>
+                <ul class="text-white mt-5">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Team</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
 
-        <div>
-            <span class="font-bold text-[#19df7f] text-xl">SERVICES</span>
-            <ul class="text-white mt-5">
-                <li>Machine Learning</li>
-                <li>Manage Analytics</li>
-                <li>Industrial Robot</li>
-                <li>Data Analsis</li>
-                <li>Robot Learning</li>
-            </ul>
-        </div>
+            <div>
+                <span class="font-bold text-[#19df7f] text-xl">SERVICES</span>
+                <ul class="text-white mt-5">
+                    <li>Machine Learning</li>
+                    <li>Manage Analytics</li>
+                    <li>Industrial Robot</li>
+                    <li>Data Analsis</li>
+                    <li>Robot Learning</li>
+                </ul>
+            </div>
         </div>
 
         <div>
@@ -48,7 +49,7 @@
                     <img class="w-6 h-6" src="@/assets/call.png" alt="">
                     <li>(+347) 123 456 7890</li>
                 </div>
-                
+
                 <div class="flex space-x-3">
                     <img class="w-6 h-6" src="@/assets/gmail.png" alt="">
                     <li>example@example.com</li>
@@ -61,6 +62,7 @@
         </div>
     </div>
     <div class="bg-[#19df7f] flex justify-center  font-bold">
-        <span class="text-white">Copyright © <a class="text-black" href="https://www.themes.codezion.com/tm/react/roboto/">Website</a> 2024.</span>
+        <span class="text-white">Copyright © <a class="text-black"
+                href="https://www.themes.codezion.com/tm/react/roboto/">Website</a> 2024.</span>
     </div>
 </template>

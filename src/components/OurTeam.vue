@@ -1,7 +1,11 @@
+<script setup>
+const props = defineProps(['titleNumber'])
+</script>
+
 <template>
     <div class="container mx-auto">
         <div class="flex flex-col items-center mb-10 space-y-5">
-            <span class="text-[#19df7f] font-bold text-6xl mt-16">05</span>
+            <span class="text-[#19df7f] font-bold text-6xl mt-16">{{ props.titleNumber }}</span>
             <span class="text-3xl font-bold">OUR TEAM</span>
         </div>
         <div

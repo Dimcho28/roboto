@@ -25,11 +25,15 @@ import PageFooter from '../components/PageFooter.vue'
         </div>
     </Hero>
     <HeroTwo />
-    <CardBox />
+    <div class="my-20">
+        <CardBox titleNumber="02" />
+    </div>
     <WorldHands />
-    <CardBoxTwo />
-    <OurTeam />
-    <OurHappy />
+    <div class="mt-20">
+        <CardBoxTwo titleNumber="04" />
+    </div>
+    <OurTeam titleNumber="05" />
+    <OurHappy titleNumber="06" />
     <LatestNews />
     <GetInTouch />
     <PageFooter />

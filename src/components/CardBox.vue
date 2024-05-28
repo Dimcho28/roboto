@@ -1,7 +1,11 @@
+<script setup>
+const props = defineProps(['titleNumber'])
+</script>
+
 <template>
-    <div class="bg-zinc-100 my-20 pb-16">
+    <div class="bg-zinc-100 pb-16">
         <div class=" flex flex-col items-center ">
-            <span class="text-[#19df7f] font-bold text-6xl mt-16">02</span>
+            <span class="text-[#19df7f] font-bold text-6xl mt-16">{{ props.titleNumber }}</span>
             <span class="text-3xl font-bold">OUR SERVICES</span>
         </div>
 

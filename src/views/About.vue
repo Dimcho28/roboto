@@ -12,7 +12,7 @@ import PageFooter from '../components/PageFooter.vue'
         </div>
     </Hero>
     <HeroTwo />
-    <OurHappy />
-    <OurTeam />
+    <OurHappy titleNumber="02" />
+    <OurTeam titleNumber="03" class="mb-20" />
     <PageFooter />
 </template>

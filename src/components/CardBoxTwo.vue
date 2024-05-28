@@ -1,10 +1,13 @@
+<script setup>
+const props = defineProps(['titleNumber'])
+</script>
+
 <template>
-    <div class="bg-fixed bg-cover bg-center mt-20"
-        style="background-image: url('https://wallpaper.dog/large/10918994.jpg');">
+    <div class="bg-fixed bg-cover bg-center" style="background-image: url('https://wallpaper.dog/large/10918994.jpg');">
         <div class="container mx-auto p-10">
 
             <div class="flex flex-col items-center mb-10 space-y-5">
-                <span class="text-[#19df7f] font-bold text-6xl mt-16">04</span>
+                <span class="text-[#19df7f] font-bold text-6xl mt-16">{{ props.titleNumber }}</span>
                 <span class="text-3xl font-bold">HOW IT WORKS</span>
             </div>
 

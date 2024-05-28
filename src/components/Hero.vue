@@ -14,8 +14,8 @@ const computedClass = computed(() => {
 </script>
 
 <template>
-    <div :class="computedClass">
-      <div class="absolute bg-black w-full h-full opacity-25 left-0"></div>
-      <slot></slot>
-    </div>
+  <div :class="computedClass">
+    <div class="absolute bg-black w-full h-full opacity-25 left-0"></div>
+    <slot></slot>
+  </div>
 </template>

@@ -13,6 +13,6 @@ import PageFooter from './components/PageFooter.vue'
 </script>
 
 <template>
-  <HelloWorld/>
-  <router-view/>
+  <HelloWorld />
+  <router-view />
 </template>
